@@ -36,6 +36,20 @@ body {
     font-size: 24px;
   }
 
+  .font_left{
+    font-size: 20px;
+    font-weight: 400;
+    color: #3285EE;
+  }
+
+  .font{
+    font-size: 20px;
+    font-weight: 400;
+    color: #3285EE;
+    display: inline;
+    cursor: pointer;
+}
+
   span{
     font-size: 20px;
   }
@@ -64,15 +78,13 @@ body {
     border-bottom: 1px solid rgb(226, 224, 224);
   }
 
-  td, th{
+  td, th, tr{
     border: 2px solid white;
     border-bottom: 1px solid #BFBFBF;
     background-color: white;
+    padding: 10px;
 }
 
-  td{
-    padding: 10px;
-  }
   tbody tr{
     border-bottom: 1px solid rgb(226, 224, 224);
   }
@@ -117,54 +129,59 @@ body {
   width: 440px;
 }
 
-.js_left{
-  left: 130px
-}
-
-.js_top{
-  top: 685px;
-}
-
+/* left links */
 #sehwag_photo{
-  top: 300px;
+  top: 630px;
+  left: 70px;
 }
 
 #sachin_photo{
-  top: 345px;
+  top: 645px;
+  left: 70px;
 }
 
 #gambhir_photo{
-  top: 390px;
+  top: 660px;
+  left: 70px;
 }
 
-#kohli_photo{
-  top: 435px;
+#virat_photo{
+  top: 675px;
+  left: 85px;
 }
 
 #dhoni_photo{
-  top: 480px;
+  top: 690px;
+  left: 70px;
 }
 
 #yuvraj_photo{
-  top: 525px;
+  top: 705px;
+  left: 70px;
 }
 
+/* bottom links */
 #raina_photo{
-  left: 340px;
+  top: 870px;
+  left: 240px;
 }
 
 #bhajan_photo{
-  left: 470px;
+  top: 870px;
+  left: 370px;
 }
 
 #khan_photo{
-  left: 630px;
+  top: 870px;
+  left: 550px;
 }
 
 #patel_photo{
-  left: 740px;
+  top: 870px;
+  left: 670px;
 }
 
 #shanth_photo{
-  left: 850px;
+  top: 870px;
+  left: 790px;
 }
